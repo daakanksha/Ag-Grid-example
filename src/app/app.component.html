@@ -1,0 +1,16 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to library example!
+  </h1>
+</div>
+<ag-grid-angular
+    style="width: 500px; height: 500px; margin: auto"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    rowSelection="multiple">
+</ag-grid-angular>
+<div class="container mt-5" style="max-width: 550px;">
+  <app-reactive-form></app-reactive-form>
+</div>
+<router-outlet></router-outlet>
